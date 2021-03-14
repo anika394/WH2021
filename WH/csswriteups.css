@@ -33,6 +33,7 @@ h1 {
     text-overflow: inherit;
     vertical-align: text-top;
     margin-left: 9%;
+    margin-top: 10%;
     z-index: 20;
     font-weight: bold;
   }
