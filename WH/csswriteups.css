@@ -12,7 +12,7 @@ h1 {
     font-weight: bold;
   }
   h2 {
-    color: purple;
+    color: #000000;
     font-family: 'Arvo', sans-serif;
     font-weight: 100;
     font-size: 190%;
@@ -24,7 +24,7 @@ h1 {
     z-index: 20;
   }
   h3 {
-    color: #000000;
+    color: #purple;
     font-family: 'Arvo', sans-serif;
     font-weight: 100;
     font-size: 220%;
