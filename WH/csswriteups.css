@@ -54,6 +54,7 @@ p {
     vertical-align: text-top;
     margin: 3%;
     z-index: 20;
+    margin-right: 300px;
 }
 
 img {
