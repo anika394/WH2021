@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="csswriteups.css" type="text/css" rel="stylesheet">
+    <body>
+        <h1>Challenge Name</h1>
+        <h3>Hackstreet Boys</h3>
+        <h2>Forensics</h2>
+        <h2>WH2021{45.zip}</h2>
+        <p>The specific challenge indicated that there was piece of malicious information within the file ‘signup.pdf’. I first tried a number of different methods such as ‘strings’, parsing the file, performing a grep and even changing the file to a jpg and performing an exiftool, but failed to actually read what the challenge was asking for - <b>a file name</b>.</p>
+        <img src='1.png'>
+        <p>In order to retrieve this piece of information and determine the location of such a file or piece of data within the pdf file, it then became obvious an extract needed to be performed.</p>
+        <img src='2.png'>
+        <p>Recalling the portion on steganography in the Whitehacks notion page, I came to the conclusion that ‘secret’ data or information was hidden within a seemingly unsuspicious file.</p>
+        <img src='3.png'>
+        <p>After ‘parsing’ through the cheatsheet, I chose the first (and simplest) command it listed. To extricate this corrupted file, the command ‘binwalk -e signup.pdf’ was executed upon signup.pdf with the command binwalk package’s built in functions (“A tool to analyse files for embedded files and executable code which is useful for reverse engineering and analysis”). This would automatically extract known file types, creating a special directory containing the extracted files - where I hoped to find the flag I was looking for.</p>
+        <img src='4.png'>
+        <p>When looking at the results of this extract, three files were seen. __MACOSX was empty, 45.zip returned the following error when opened and eicar.txt didn't contain much information that could be made sense of. It didn't take much to guess that 45.zip was, in fact, the corrupted file. Placing the filename in the appropriate syntax (WH2021{45.zip}), not without making a few typos, the flag was correct!</p>
+        <img src='5.png'>
+    </body>
+    </head>
+</html>

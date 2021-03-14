@@ -1,0 +1,62 @@
+h1 {
+    color: #000000;
+    font-family: 'Arvo', sans-serif;
+    font-weight: 100;
+    font-size: 570%;
+    letter-spacing: 2px;
+    text-align: left;
+    text-overflow: inherit;
+    vertical-align: text-top;
+    margin: 3%;
+    z-index: 20;
+  }
+  h2 {
+    color: #000000;
+    font-family: 'Arvo', sans-serif;
+    font-weight: 100;
+    font-size: 190%;
+    letter-spacing: 2px;
+    text-align: left;
+    text-overflow: inherit;
+    vertical-align: text-top;
+    margin: 3%;
+    z-index: 20;
+  }
+  h3 {
+    color: #000000;
+    font-family: 'Arvo', sans-serif;
+    font-weight: 100;
+    font-size: 220%;
+    letter-spacing: 2px;
+    text-align: left;
+    text-overflow: inherit;
+    vertical-align: text-top;
+    margin: 3%;
+    z-index: 20;
+  }
+
+body {
+    background: #ffffff;
+    align-items: center;
+    justify-content: center;
+    background-blend-mode: lighten;
+    overflow: scroll;
+    background-size: 100%;
+}
+p {
+  color: #000000;
+    font-family: 'Arvo', sans-serif;
+    font-weight: 100;
+    font-size: 140%;
+    letter-spacing: 2px;
+    text-align: left;
+    text-overflow: inherit;
+    vertical-align: text-top;
+    margin: 3%;
+    z-index: 20;
+}
+
+img {
+    margin: 10px auto;
+    width: 800px;
+}
