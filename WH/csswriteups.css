@@ -34,6 +34,7 @@ h1 {
     vertical-align: text-top;
     margin: 3%;
     z-index: 20;
+    font-weight: bold;
   }
 
 body {
@@ -60,5 +61,5 @@ p {
 
 img {
     width: 800px;
-    left: 100px;
+    margin-right: 300px;
 }
