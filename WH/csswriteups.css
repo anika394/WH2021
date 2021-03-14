@@ -38,10 +38,10 @@ h1 {
   }
 
 body {
-    background-image: url('https://c4.wallpaperflare.com/wallpaper/163/349/121/neon-genesis-evangelion-computer-wallpaper-preview.jpg');
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI_ZVPwlnk4_UZrmFJPyqze5HsTJqgrKPHgw&usqp=CAU');
     align-items: center;
     justify-content: center;
-    background-blend-mode: lighten;
+    background-blend-mode: exclusion;
     overflow: scroll;
     background-size: 100%;
 }
